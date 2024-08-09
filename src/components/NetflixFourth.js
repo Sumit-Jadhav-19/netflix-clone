@@ -13,11 +13,11 @@ export default function NetflixFourth(){
               </div>
               <div className="col-lg-1 col-md-1 col-sm-12"></div>
               <div className="col-lg-4 col-md-4 col-sm-12 d-flex flex-column justify-content-center align-items-center position-relative">
-                <video width="300" height="300" autoPlay loop muted className="position-absolute z-0" style={{top:"80px"}}>
+                <video width="400" height="230" autoPlay loop muted className="position-absolute z-0" style={{top:"80px"}}>
                   <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v" type="video/mp4" />
                   Your browser does not support the video tag.
                 </video>
-                <img src={devicePile} alt="device Pile" className="w-100 z-1" />
+                <img src={devicePile} alt="device Pile" className="z-1" />
               </div>
             </div>
           </div>

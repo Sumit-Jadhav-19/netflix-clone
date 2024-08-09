@@ -9,7 +9,7 @@ export default function NetflixHeader() {
               <option defaultValue={"English"}>English</option>
               <option value="1">हिंदी</option>
             </select>
-            <button type="submit" className="btn bg-red  w-100">Sign In</button>
+            <button type="submit" className="btn bg-red ">Sign In</button>
           </div>
         </div>
         <div className="searchbar"></div>

@@ -14,11 +14,11 @@ export default function NetflixSecond() {
           </div>
           <div className="col-lg-1 col-md-1 col-sm-12"></div>
           <div className="col-lg-4 col-md-4 col-sm-12 d-flex flex-column justify-content-center align-items-center">
-            <video width="385" height="370" autoPlay loop muted className="position-absolute z-0" style={{top:""}}>
+            <video width="500" height="370" autoPlay loop muted className="position-absolute z-0" style={{top:""}}>
               <source src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
-            <img src={tvPng} alt="TV " className="w-100 z-1" />
+            <img src={tvPng} alt="TV " className="z-1" />
           </div>
         </div>
       </div>

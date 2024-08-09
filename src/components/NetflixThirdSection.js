@@ -8,8 +8,8 @@ export default function NetflixThirdSection() {
         <div className="row m-0 h-100">
           <div className="col-lg-1 col-md-1 col-sm-12"></div>
           <div className="col-lg-4 col-md-4 col-sm-12 d-flex flex-column justify-content-center ">
-            <img src={mobile} alt="mobile" className="w-100 z-1" />
-            <div className="text-white mobile d-flex align-items-center gap-3 w-60 mobile-div justify-content-between">
+            <img src={mobile} alt="mobile" className="z-1" />
+            <div className="text-white mobile d-flex align-items-center gap-3 mobile-div justify-content-between" style={{width:"300px"}}>
               <div className="d-flex align-items-center gap-3">
                 <img src={boxshot} alt="boxshot" className="z-1" width={50} />
                 <div className="d-flex flex-column">
@@ -27,7 +27,7 @@ export default function NetflixThirdSection() {
             <h1 className="text-white fw-bold fs-50px">
               Download your shows to watch offline
             </h1>
-            <p className="fs-5 fw-medium text-start text-white w-100">
+            <p className="fs-5 fw-medium text-start text-white">
               Save your favourites easily and always have something to watch.
             </p>
           </div>

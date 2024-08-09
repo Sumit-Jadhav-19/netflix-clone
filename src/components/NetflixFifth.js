@@ -13,7 +13,7 @@ export default function NetflixFifth(){
                 <h1 className="text-white fw-bold fs-50px">
                 Create profiles for kids
                 </h1>
-                <p className="fs-5 fw-medium text-start text-white w-100">
+                <p className="fs-5 fw-medium text-start text-white">
                 Send children on adventures with their favourite characters in a space made just for them—free with your membership.
                 </p>
               </div>
